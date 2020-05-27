@@ -1,8 +1,8 @@
-# This file tests the following function:
-def return_formatted_name(name):
-    return name.title().strip()
+from gen_functions_def import return_formatted_name
 
-# Set up
+# This file tests the above imported function
+# Set up:
+
 input = " paTRicK    "
 expected_output = "Patrick"
 
