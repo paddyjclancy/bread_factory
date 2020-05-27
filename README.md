@@ -1,4 +1,5 @@
 # Factory of Alentejo Bread
+*********Copy to Functions.md when complete*********
 
 ### Description of Project
 This small project looks at using functions and TDD. We're also implementing Agile and Scrum principles.

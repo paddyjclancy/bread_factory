@@ -1,5 +1,6 @@
 # Defining a function
 #       Return, not print
+
 def say_hello_name(name):
     return(f'Hello, {name}')
 
@@ -13,7 +14,3 @@ def say_hello_name(name):
 
 def return_formatted_name(name):
     return name.title().strip()
-
-f_name = return_formatted_name("  pAtrICk      ")
-
-print(say_hello_name(f_name))
