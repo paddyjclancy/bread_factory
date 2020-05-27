@@ -1,8 +1,9 @@
 # Defining a function
 #       Return, not print
 
+
 def say_hello_name(name):
-    return(f'Hello, {name}')
+    return f'Hello, {name}'
 
 # The following is BAD:
 #
@@ -12,5 +13,7 @@ def say_hello_name(name):
 #
 # Preferred:
 
+
 def return_formatted_name(name):
     return name.title().strip()
+
