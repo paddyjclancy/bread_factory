@@ -14,7 +14,7 @@ def bake_bread(ing):
         return "not bread"
 
 def make_ww_dough(ing1, ing2):
-    if ing1 == "whole wheat flour" and ing2 =="water":
+    if ing1 == "whole wheat flour" and ing2 == "water":
         return "whole wheat dough"
     elif ing1 == "water" and ing2 == "whole wheat flour":
         return "whole wheat dough"
